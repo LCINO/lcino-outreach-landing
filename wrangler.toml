@@ -1,6 +1,6 @@
 # Cloudflare Workers (static assets). Deploy:  npx wrangler deploy
 # Only the public/ folder is uploaded, so .git, README and config never reach the site.
-name = "lcino-landing"
+name = "lcinooutreach"
 compatibility_date = "2026-11-01"
 
 [assets]
