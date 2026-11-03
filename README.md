@@ -1,9 +1,9 @@
 # Lcino Landing
 
-Plain static site (no build step). Files: `index.html`, `styles.css`, `app.js`, `config.js`, `assets/`.
+Plain static site (no build step). Files: everything under `public/`.
 
 ## Edit
-`config.js` holds the Mac download link, the early-access link and the app login link.
+`public/config.js` holds the Mac download link, the early-access link and the app login link.
 
 ## Deploy
 - **Cloudflare Workers:** `npx wrangler deploy` in this folder (uses `wrangler.toml`).
@@ -11,4 +11,4 @@ Plain static site (no build step). Files: `index.html`, `styles.css`, `app.js`, 
 Then add your custom domain in the Cloudflare dashboard.
 
 ## Preview locally
-`python3 -m http.server 8080` then open http://localhost:8080
+`cd public && python3 -m http.server 8080` then open http://localhost:8080
