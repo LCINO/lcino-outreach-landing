@@ -1,0 +1,6 @@
+# Cloudflare Workers (static assets). Deploy:  npx wrangler deploy
+name = "lcino-landing"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "."
