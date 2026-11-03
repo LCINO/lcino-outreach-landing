@@ -1,4 +1,6 @@
-# Lcino Landing
+# LcinoOutreach landing
+
+Live: https://outreach.lcino.com · A product of [Lcino](https://lcino.com)
 
 Plain static site (no build step). Files: everything under `public/`.
 
