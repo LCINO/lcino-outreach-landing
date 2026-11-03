@@ -7,7 +7,7 @@
   <footer class="foot"><div class="wrap">
     <div class="foot-grid">
       <div>
-        <a class="logo" href="/"><img src="/assets/logo-mark.svg" alt="">Lcino<b>Outreach</b></a>
+        <a class="logo" href="/"><img src="/assets/logo-mark.svg" alt=""><span>Lcino<b>Outreach</b></span></a>
         <p class="about">Audit-first cold outreach for freelancers, marketers and agencies. Find leads, audit them, send a sample and run the follow-ups, from your own Mac.</p>
         <a class="byline" href="https://lcino.com" target="_blank" rel="noopener">A product of <b>Lcino</b> ↗</a>
       </div>
@@ -23,9 +23,9 @@
         <li><a href="${C.email ? "mailto:" + C.email : "https://lcino.com"}" ${C.email ? "" : 'target="_blank" rel="noopener"'}>Contact &amp; support</a></li></ul></div>
     </div>
     <div class="foot-bottom">
-      <span>© ${y} <a href="https://lcino.com" target="_blank" rel="noopener">Lcino</a>. All rights reserved. Lcino Outreach is developed and published by Lcino.</span>
-      <span><a href="/terms">Terms</a> · <a href="/privacy">Privacy</a> · <a href="/refund">Refunds</a></span>
+      <span>© ${y} <a href="https://lcino.com" target="_blank" rel="noopener">Lcino</a>. All rights reserved. LcinoOutreach is developed and published by Lcino.</span>
+      <span class="legal-links"><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="/refund">Refunds</a><a href="/acceptable-use">Acceptable use</a><a href="/affiliate">Affiliates</a></span>
     </div>
-    <p class="disclaimer">YouTube and Google Maps are trademarks of Google LLC; Facebook, Instagram and WhatsApp are trademarks of Meta Platforms, Inc.; LinkedIn, TikTok, Upwork and the other names shown are trademarks of their respective owners. Lcino Outreach is an independent product and is not affiliated with, endorsed by or sponsored by any of them. Competitor names and prices are used for factual comparison only.</p>
+    <p class="disclaimer">YouTube and Google Maps are trademarks of Google LLC; Facebook, Instagram and WhatsApp are trademarks of Meta Platforms, Inc.; LinkedIn, TikTok, Upwork and the other names shown are trademarks of their respective owners. LcinoOutreach is an independent product and is not affiliated with, endorsed by or sponsored by any of them. Competitor names and prices are used for factual comparison only.</p>
   </div></footer>`;
 })();

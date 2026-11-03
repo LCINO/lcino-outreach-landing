@@ -157,7 +157,7 @@ function wireLinks() {
 // ---- behaviours ----
 function tilt() {
   document.addEventListener("pointermove", (e) => {
-    const c = e.target.closest && e.target.closest(".card");
+    const c = e.target.closest && e.target.closest(".card, .who > div");
     if (!c) return;
     const r = c.getBoundingClientRect();
     const x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
@@ -167,7 +167,7 @@ function tilt() {
     c.style.setProperty("--gy", (y * 100).toFixed(0) + "%");
   });
   document.addEventListener("pointerout", (e) => {
-    const c = e.target.closest && e.target.closest(".card");
+    const c = e.target.closest && e.target.closest(".card, .who > div");
     if (c && !c.contains(e.relatedTarget)) { c.style.setProperty("--cry", "0deg"); c.style.setProperty("--crx", "0deg"); }
   });
   const stage = document.querySelector(".stage"), world = document.querySelector(".world");
